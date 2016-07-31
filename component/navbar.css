@@ -1,0 +1,33 @@
+.navbar-lc {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFF;
+  padding: 15px;
+}
+
+.navbar-right-lc {
+  display: flex;
+  align-items:  center;
+}
+
+@media (max-width: 767px) {
+  .navbar-right-lc.dropdown {
+    display: flex !important;
+    align-items:  center;
+    }
+}
+
+.navbar-right-lc a {
+  padding: 15px 15px;
+  margin-left: 10px;
+}
+
+.navbar-right-lc a:hover {
+  background-color: #DDD;
+}
+
+.navbar-right-lc .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
